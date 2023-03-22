@@ -1,8 +1,8 @@
 class AlarmClock:
     def __init__(self) -> None:
-        self.current_time = ""
+        self.current_time = "1200"
         self.alarm_on = False
-        self.alarm_time = ""
+        self.alarm_time = "1200"
 
     def set_current_time(self, new_time):
         self.current_time = new_time
